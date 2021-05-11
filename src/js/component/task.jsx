@@ -81,7 +81,7 @@ const Task = () => {
 
 	// 3º {todosMap} para dibujar la lista que he realizado en el map
 	return (
-		<div>
+		<div className="listOfTask">
 			<input
 				type="text"
 				onKeyPress={event => {
